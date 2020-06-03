@@ -47,15 +47,45 @@ body {
 }
 .navigation-panel {
    margin-left: 12px;
+   display: flex;
+   align-items: center;
 }
 .navigation-link {
+   display: flex;
+   align-items: center;
    color: #ffffff;
    font-weight: 600;
    font-size: 14px;
    line-height: 22px;
    text-decoration: none;
+   margin-left: 12px;
 }
 .navigation-link::before {
+   content: "";
+   width: 1px;
+   height: 16px;
+   background: #003a8c;
+   margin-right: 12px;
+}
+.navigation-link:last-child::after {
+   content: "";
+   width: 1px;
+   height: 16px;
+   background: #003a8c;
+   margin-left: 12px;
+}
+.icon-link {
+   margin-left: 17px;
+   display: flex;
+   align-items: center;
+}
+.header-icon {
+   fill: #002766;
+}
+.header-icon:hover {
+   fill: white;
+}
+.icon-link:last-child::before {
    content: "";
    width: 1px;
    height: 16px;
