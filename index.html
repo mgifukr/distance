@@ -12,6 +12,11 @@
 <body>
    <header class="header">
       <div class="header-block">
+         <button class="m-menu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+         </button>
          <div class="search">
             <input class="search-input" placeholder="Search">
          </div>
@@ -356,8 +361,45 @@
          <!-- /.post -->
       </div>
       <!-- /.main-feed -->
-   </div>
+      <div class="right-sidebar">
+         <div class="stories">
+            <div class="stories-header">
+               <h4 class="stories-title">Stories</h4>
+               <div class="stories-buttons">
+                  <a href="#" class="stories-button-link">
+                     <svg width="16" height="16" class="stories-archive-icon">
+                        <use xlink:href="image/icons.svg#clock-circle"></use>
+                     </svg>
+                     <span class="stories-buttons-text">Archive</span>
+                  </a>
+                  <a href="" class="stories-button-link">
+                     <span class="stories-buttons-text">Settings</span>
+                  </a>
+               </div>
+            </div>
+            <!-- /.story-header -->
 
+            <a href="#" class="stories-item-add">
+               <div class="story-image">+</div>
+               <div class="story-item-text">
+                  <span class="story-title">Add to your story</span>
+                  <span class="story-text">Share a photo or video or write something</span>
+               </div>
+            </a>
+            <!-- /.stories-item-add -->
+            <a href="#" class="stories-item">
+               <div class="story-image figma"></div>
+               <div class="story-item-text">
+                  <span class="story-title">Figma</span>
+                  <span class="story-text">5 hours ago</span>
+               </div>
+            </a>
+         </div>
+         <!-- /.Stories -->
+      </div>
+      <!-- /.right-sidebar -->
+   </div>
+   <script src="/js/main.js"></script>
 </body>
 
 </html>
