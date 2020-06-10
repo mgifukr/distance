@@ -22,7 +22,9 @@
          </div>
          <div class="navigation">
             <div class="user">
-               <img src="image/avatar.png" alt="avatar" class="user-avatar">
+               <a href="#" class="user-item">
+                  <div class="navigation-user-avatar user-avatar"></div>
+               </a>
                <span class="user-name">Mateusz</span>
             </div>
             <nav class="navigation-panel">
@@ -72,8 +74,11 @@
    <div class="container">
       <div class="menu-sidebar">
          <div class="user">
-            <img src="image/avatar.png" alt="avatar" class="user-avatar">
-            <span class="user-name">Mateusz Wierzbicki</span>
+            <a href="#" class="user-item">
+               <div class="user-avatar"></div>
+               <span class="user-name">Mateusz Wierzbicki</span>
+            </a>
+
          </div>
          <!-- /.user-->
          <nav class="nav-group">
@@ -237,7 +242,7 @@
             </div>
             <!-- /.create-post-header -->
             <div class="create-post-body">
-               <img src="image/avatar–createPost.png" alt="avatar" class="user-avatar">
+               <div class="create-post-user-avatar user-avatar"></div>
                <div class="create-post-input" contenteditable="true">What’s on your mind, Mateusz?</div>
             </div>
             <!-- /.create-post-body -->
@@ -302,7 +307,9 @@
          <div class="post">
             <div class="post-header">
                <div class="user">
-                  <img src="image/avatar-Post.png" alt="avatar" class="user-avatar-post">
+                  <a href="#" class="user-item">
+                     <div class="user-item-image user-avatar-post"></div>
+                  </a>
                   <div class="post-info">
                      <a href="#" class="post-author">Mateusz Wierzbicki</a>
                      <div class="post-info-time">
@@ -327,6 +334,68 @@
                   Learn more: <a href="https://antforfigma.com">https://antforfigma.com</a>
                </p>
                <img src="image/post-image.jpg" alt="post-image" class="post-image">
+            </div>
+            <!-- /.post-content -->
+            <div class="likes">
+               <svg width="16" height="16" class="likes-icon">
+                  <use xlink:href="image/icons.svg#like"></use>
+               </svg>
+               <span class="likes-counter">23</span>
+            </div>
+            <!-- /.likes -->
+            <div class="post-footer">
+               <button class="post-button">
+                  <svg width="24" height="24" class="post-button-icon">
+                     <use xlink:href="image/icons.svg#likes"></use>
+                  </svg>
+                  <span class="post-button-text">Like</span>
+               </button>
+               <button class="post-button">
+                  <svg width="24" height="24" class="post-button-icon">
+                     <use xlink:href="image/icons.svg#message"></use>
+                  </svg>
+                  <span class="post-button-text">Comment</span>
+               </button>
+               <button class="post-button">
+                  <svg width="24" height="24" class="post-button-icon">
+                     <use xlink:href="image/icons.svg#share-alt"></use>
+                  </svg>
+                  <span class="post-button-text">Share</span>
+               </button>
+            </div>
+            <!-- /.post-footer -->
+         </div>
+         <!-- /.post -->
+
+         <div class="post">
+            <div class="post-header">
+               <div class="user">
+                  <a href="#" class="user-item">
+                     <div class="user-item-image figma"></div>
+                  </a>
+
+                  <div class="post-info">
+                     <a href="#" class="post-author">Figma</a>
+                     <div class="post-info-time">
+                        <span class="post-time">6 hrs</span>
+                        <svg width="14" height="14" class="setting-icon">
+                           <use xlink:href="image/icons.svg#setting"></use>
+                        </svg>
+                     </div>
+                  </div>
+               </div>
+               <button class="post-header-button">
+                  <svg width="24" height="24" class="post-header-icon">
+                     <use xlink:href="image/icons.svg#ellipsis"></use>
+                  </svg>
+               </button>
+            </div>
+            <!-- /.post-header -->
+            <div class="post-content">
+               <p class="post-text">
+                  📙 Want to implement type in your design system in Figma? This guide covers everything you should
+                  consider, from choosing the right typography scale to naming and organizing your text styles.
+               </p>
             </div>
             <!-- /.post-content -->
             <div class="likes">
