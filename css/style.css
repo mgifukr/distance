@@ -533,11 +533,11 @@ body {
       position: fixed;
       left: 0;
       top: 40px;
-      width: 100%;
-      min-width: 250px;
+      /* width: 100%; */
+      min-width: 220px;
       background-color: #fff;
       padding-top: 12px;
-      height: 100%;
+      /*  height: 70%; */
       padding-left: 2%;
       transform: translateX(-100%);
       transition: transform 0.2s;
